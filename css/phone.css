@@ -1,0 +1,228 @@
+body{
+    font-family: 'iranyekanwebregular', Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------------------------------------------header----------------------------------------  */
+header{
+    width: auto;
+}
+
+
+/* ------------------------------------------------main----------------------------------------  */
+main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* div img  */
+.img{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 55%;
+    height: 55%;
+}
+
+
+/* div title  */
+.title{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+    width: 70%;
+    margin-bottom: 20px;
+    font-family: iranyekanwebmedium;
+    font-size: 30px;
+}
+
+.title p{
+    margin: 10px;
+}
+
+
+/* div text  */
+.text{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.text svg{
+    color: #A03ADB;
+}
+
+.text-right, .text-left{
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.text-right{
+    margin-left: 20px;
+}
+
+.text-right-one, .text-right-two,
+.text-left-one, .text-left-two{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+    padding: 15px;
+}
+
+.text-right-Three, .text-left-Three{
+    padding: 15px;
+}
+
+.text-right-one-titel, .text-right-two-titel, .text-right-Three-titel,
+.text-left-one-titel, .text-left-two-titel, .text-left-Three-titel{
+    display: flex;
+    align-items: center;
+    font-family: iranyekanwebmedium;
+    margin-bottom: 20px;
+}
+
+.text-right-one-titel svg, .text-right-two-titel svg, .text-right-Three-titel svg,
+.text-left-one-titel svg, .text-left-two-titel svg, .text-left-Three-titel svg{
+    margin-left: 10px;
+}
+
+.text-right-one-Content, .text-left-Three-Content{
+    text-align: justify;
+}
+
+
+/* social-media */
+.social-media{
+    width: 70%;
+    margin: 35px 0px;
+}
+
+.social-media-title{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+    margin-bottom: 20px;
+    font-family: iranyekanwebmedium;
+    font-size: 30px;
+}
+
+.social-media-title p{
+    margin: 10px;
+}
+
+.social-media-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.social-media-icon-instagram, .social-media-icon-whatsapp{
+    width: 60px;
+    height: 60px;
+    border: 2px dashed #A03ADB;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E3F3;
+}
+
+.social-media-icon-instagram:hover, .social-media-icon-whatsapp:hover{
+    background-color: #e0d3e7;
+    cursor: pointer;
+}
+
+.social-media-icon-instagram svg, .social-media-icon-whatsapp svg{
+    color: #A03ADB;
+}
+
+.social-media-icon-instagram{
+    margin-left: 20px;
+}
+
+
+/* ------------------------------------------------footer----------------------------------------  */
+footer{
+    margin-top: 0px;
+    width: auto;
+}
+
+
+
+
+
+/*------------------------------------------------ responsive ------------------------------------- */
+@media (max-width: 732px){
+
+    .text{
+        flex-direction: column;
+    }
+
+    .text-right, .text-left{
+        width: 100%;
+    }
+
+    .text-right{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .title, .social-media-title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 472px){
+
+    .text-right-one-Content, .text-left-Three-Content{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 404px){
+
+    .title, .social-media-title{
+        font-size: 15px;
+    }
+    
+    .text-right-one-titel p, .text-right-two-titel p, .text-right-Three-titel p,
+    .text-left-one-titel p, .text-left-two-titel p, .text-left-Three-titel p{
+        font-size: 12px;
+    }
+
+    .text-right-one-Content, .text-left-Three-Content,
+    .text-right-two-Content, .text-left-two-Content{
+        font-size: 12px;
+    }
+
+    .text-right-one-titel, .text-right-two-titel, .text-right-Three-titel,
+    .text-left-one-titel, .text-left-two-titel, .text-left-Three-titel{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 333px){
+
+    .title, .social-media-title{
+        font-size: 15px;
+    }
+    
+    .text-right-one-titel p, .text-right-two-titel p, .text-right-Three-titel p,
+    .text-left-one-titel p, .text-left-two-titel p, .text-left-Three-titel p{
+        font-size: 9px;
+    }
+}
+
+

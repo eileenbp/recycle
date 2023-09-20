@@ -1,0 +1,133 @@
+body{
+    font-family: 'iranyekanwebregular', Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------------------------------------------header----------------------------------------  */
+header{
+    width: auto;
+}
+
+
+/* ------------------------------------------------main----------------------------------------  */
+/* .main{
+
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(169, 157, 180, 0.329);
+    width: 55%;
+    margin: 0 auto;
+
+} */
+
+
+.text_user{
+
+    font-family: 'YekanBakhMedium';
+    margin: 8px 0px;
+}
+
+.label{
+    font-family: 'YekanBakhMedium';
+}
+
+.div_user{
+
+    width: 50%;
+
+}
+
+
+.input_user{
+
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    border: none;
+
+}
+
+.input_user:focus{
+    outline:none;
+}
+
+.div_user_adress{
+
+    width: 50%;
+}
+
+#adress{
+
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+
+
+.input_adress{
+
+    border: none;
+    border-radius: 8px;
+    height: 25px;
+    padding: 8px;
+
+}
+
+
+.input_adress:focus{
+
+    outline:none;
+}
+
+
+#btn_user{
+
+    width: 15%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a03adbb9;
+    color: #f0ebeb;
+    font-size: 20px;
+}
+#btn_user:hover{
+    cursor: pointer;
+    border: 0.5px solid rgba(102, 51, 153, 0.774);
+}
+
+
+
+
+/* ------------------------------------------------footer----------------------------------------  */
+footer{
+    width: auto;
+}
+
+
+@media (max-width: 1130px){
+
+    #adress{
+
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    
+    .text_user{
+        font-size: 10px;
+    }
+
+    .label{
+        font-size: 10px;
+    }
+}
+
+

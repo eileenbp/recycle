@@ -1,0 +1,34 @@
+
+/* ------------------------------------------------header----------------------------------------  */
+header{
+    width: auto;
+}
+/* .cards{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-gap: 40px;
+     */
+    /* border: 1px solid red; */
+
+/* } */
+
+/* .img-card{
+
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+.crad-text{
+
+    margin: 20px 0;
+    font-family: 'YekanBakhMedium';
+
+} */
+
+
+/* ------------------------------------------------footer----------------------------------------  */
+footer{
+    width: auto;
+}

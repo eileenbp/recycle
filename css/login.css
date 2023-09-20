@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'iranyekanwebregular', Arial, Helvetica, sans-serif;
+  
+}
+.container{
+    background: url(../imgs/login/b8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-registration{
+    background-color: rgba(0, 0, 0, 0.123);
+    backdrop-filter: blur(30px);
+    display: flex;
+
+    flex-direction: row;
+
+    width: 100%;
+    max-width: 1000px;
+
+    
+}
+
+.error{
+    border: 2px solid rgb(214, 104, 104);
+}
+
+
+/* ------------------------------- img --------------------------- */
+.img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*---------------------------------- form ------------------------ */
+.forms{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.title p{
+    font-size: 30px;
+    font-family: YekanBakhMedium;
+    color: rgb(113, 7, 212);
+
+}
+
+.title a{
+    text-decoration: none;
+    color: rgb(129, 24, 228);
+    margin-right: 10px;
+}
+
+.title a:hover{
+    color: #f0acd6;
+
+}
+
+.username, .password, .email{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 40px;
+    margin: 15px;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0px rgba(255, 255, 255, 0.75),
+                -1px 1px 4px 0px rgba(255, 255, 255, 0.75);
+
+}
+
+.username input, .password input, .email input{
+    border: none;
+    margin: 0px 10px;
+
+}
+
+.username input:focus, .password input:focus, .email input:focus{
+    outline: none;
+}
+
+.username svg, .password svg, .email svg{
+    margin-right: 12px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.form a, .button{
+    margin: 15px;
+}
+
+.form a{
+    text-decoration: none;
+    color: rgb(129, 24, 228);
+    font-family: YekanBakhMedium;
+}
+
+.form a:hover{
+    color: #f0acd6;
+    transition: 0.1s;
+}
+
+.button{
+
+    background-color: rgb(129, 24, 228);
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px 20px;
+    text-align: center;
+
+    box-shadow: 1px 1px 4px 0px rgba(207, 191, 212, 0.705),
+    -1px 1px 4px 0px rgba(207, 191, 212, 0.705);
+
+
+    border: none;
+    text-align: center;
+    font-family: YekanBakhMedium;
+    font-size: 18px;
+    color: #ffffff;
+
+
+
+}
+
+.button:hover{
+    background-color: rgb(151, 75, 223);
+    transition: 0.5s;
+}
+
+/* .button button{
+    border: none;
+    background:none;
+    text-align: center;
+    font-family: YekanBakhMedium;
+    font-size: 18px;
+    color: #ffffff;
+} */
+
+.button:hover, .button button:hover{
+    cursor: pointer;
+}
+
+.form-registration{
+    display: none;
+}
+
+
+/*---------------------------------- error ------------------------ */
+
+#username_error_login, #username_error_registration, #password_error_login,#password_error_registration, #email_error{
+    width: 100%;
+    margin-right: 25px;
+    margin-top: -5px;
+    font-size: 12px;
+    color: red;
+
+    display: none;
+}
+
+
+@media (max-width: 900px){
+
+    .button{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 680px){
+
+    .img img{
+        width: 80%;
+        height: 70%;
+    }
+    
+}
+
+@media (max-width: 680px){
+
+    .img{
+
+        display: none;
+    }
+
+    .forms{
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    
+}
